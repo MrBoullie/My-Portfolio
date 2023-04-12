@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/cb60ee7807.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header class="container , hidden">
+        <nav class="nav">
+            <a href="#" class="logo">My Portfolio</a></a>
+            <ul class="navItems">
+            <li><a href="#projects" div="link">My Projects</a></li>
+            <li><a href="#about" div="link">About Me</a></li>
+            <li><a href="#contact" div="link">Contact Me</a></li>
+            </ul>
+            <input type="checkbox" id="dark-mode" class="input">
+            <label for="dark-mode" class="label">
+                <div class="circle"></div>
+            </label>
+        </nav>
+    </header>
+    <section class="main , hidden">
+        <div>
+            <h1>I am CHARBEL HACHEM</h1>
+            <p>Welcome to my Portfolio</p>
+            <a href="#projects" class="main-btn">Take a look</a>
+        </div>
+    </section>
+    <section class="projects , hidden" id="projects">
+        <h2 class="title">My projects</h2>
+        <div class="first-item">
+            <div class="content">
+                <div class="project-card">
+                    <div class="proj-img">
+                        <a href="https://ghadasbakery.netlify.app" target="_blank">
+                        <img src="pastisserie.png">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Ghada's bakery website</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="proj-img">
+                        <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Working On It</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="proj-img">
+                        <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Working On It</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="proj-img">
+                        <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Working On It</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="proj-img">
+                        <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1565106430482-8f6e74349ca1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Working On It</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about,">
+        <h2 class="title , tit">About me</h2>
+        <div class="information"> 
+            <img src="me.JPG" class="my-img">
+            <div class="text">
+                 <h4 >Hello and welcome to my website!</h4>
+                 <p class="hidden">My name is <strong>CHARBEL HACHEM</strong>,
+                and I am a Junior Front-End Developer based in Lebanon. I am passionate about building beautiful and functional websites that are both user-friendly and accessible to all.<br>
+                As a front-end developer, my focus is on creating visually appealing and responsive user interfaces that provide an exceptional user experience. I am dedicated to staying up-to-date with the latest trends and technologies in the industry, and I enjoy experimenting with new tools and frameworks to enhance my skills.<br>
+                  Thank you for visiting my website, and I hope to hear from you soon!
+                  </p>
+            </div>      
+         </div>
+    </section>
+
+    <section class="contact , hidden" id="contact">
+        <div class="container">
+          <h2 class="title">Contact Me</h2>
+          <p>Feel free to get in touch if you have any questions, suggestions, or feedback. I'd love to hear from you!</p>
+          <form class="contact-form" action="https://formsubmit.co/boulhachem12@gmail.com" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </form>
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p><i class="fas fa-map-marker-alt"></i><span>Zahle, Lebanon</span></p>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:boulhachem12.com" target="_blank">Boulhachem12.com</a></p>
+            <p><i class="fas fa-phone"></i> <a href="https://wa.me/96181043041?text=Hello%20there!" target="_blank">+961 81 043 041</a></p>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer-title">Copyrights @ <span class="name">CHARBEL HACHEM</span></p>
+        <div class="icons">
+            <a href="https://www.facebook.com/profile.php?id=100008016589473&mibextid=ZbWKwL"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://instagram.com/charbel.hach?igshid=YmMyMTA2M2Y="><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
